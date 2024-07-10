@@ -47,9 +47,9 @@ export default function Task() {
     setBalance(balance_state);
     setDailyCoins(daily_coins_state ? moment(daily_coins_state) : null);
   }, [username_state, balance_state, daily_coins_state, setDailyCoins]);
-  const telegramGroupLink = "https://t.me/MikeToken";
-  const telegramChannelLink = "https://t.me/MikeTokenAnn";
-  const twitterChannelLink = "https://twitter.com/MikeTokenio";
+  const telegramGroupLink = "https://t.me/CashtreeOfficialCommunity";
+  const telegramChannelLink = "https://t.me/Cashtreeglobal";
+  const twitterChannelLink = "https://twitter.com/Cashtree";
   const handleLetsGoTelegramGroup = () => {
     window.open(telegramGroupLink, "_blank");
   };
@@ -232,7 +232,7 @@ export default function Task() {
               className="text-[white] text-[xl]"
               style={{ fontFamily: "poppins" }}
             >
-              Send your vibe to Mike's TG group and earn some coins
+              Send your vibe to Cashtree's TG group and earn some coins
             </h2>
             <div className="flex justify-center items-center  w-full gap-3">
               <button
@@ -273,7 +273,7 @@ export default function Task() {
                 className="text-[white] text-[xl]"
                 style={{ fontFamily: "poppins" }}
               >
-                Join Mike's TG Group
+                Join Cashtree's TG Group
               </h2>
               <div className="flex justify-center items-center  w-full gap-3">
                 <button
@@ -295,7 +295,7 @@ export default function Task() {
                 className="text-[white] text-[xl]"
                 style={{ fontFamily: "poppins" }}
               >
-                Subscribe Mike's TC Channel
+                Subscribe Cashtree's TC Channel
               </h2>
               <div className="flex justify-center items-center  w-full gap-3">
                 <button
@@ -317,7 +317,7 @@ export default function Task() {
                 className="text-[white] text-[xl]"
                 style={{ fontFamily: "poppins" }}
               >
-                Follow Mike's Twitter
+                Follow Cashtree's Twitter
               </h2>
               <div className="flex justify-center items-center  w-full gap-3">
                 <button

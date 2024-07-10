@@ -39,7 +39,7 @@ export default function RankingList() {
               )}
             </div>
             <div className="relative h-10 overflow-hidden w-[60%] flex items-center justify-start">
-              <img src="/image/mikeT.png" alt="avatar" className="w-10 h-10" />
+              <img src="/image/ctt-token.png" alt="avatar" className="w-10 h-10" />
               <p className="text-xl text-start pl-2 text-white">{data.username}</p>
             </div>
 
